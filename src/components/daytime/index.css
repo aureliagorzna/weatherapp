@@ -1,0 +1,28 @@
+.daytime-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 15px 20px 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  box-sizing: border-box;
+  max-width: 360px;
+}
+
+.daytime-section {
+  padding: 0 25px;
+}
+
+@media (min-width: 700px) {
+  .daytime-wrapper {
+    order: 2;
+    width: 400px;
+    margin-top: 0;
+  }
+
+  .daytime-section {
+    padding: 0 15%;
+  }
+}
