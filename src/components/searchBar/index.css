@@ -25,3 +25,19 @@
 .search-icon:hover {
   color: black;
 }
+
+@media (min-width: 700px) {
+  .search-container {
+    position: relative;
+    top: -10px;
+    left: 0;
+  }
+}
+
+@media (min-width: 1300px) {
+  .search-container {
+    position: relative;
+    top: 44px;
+    left: -320px;
+  }
+}
