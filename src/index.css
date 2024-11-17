@@ -1,6 +1,7 @@
 body {
   margin: 0;
   height: 100%;
+  font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,10 +11,6 @@ body {
   background-position: center;
   background-attachment: fixed;
   overflow-x: hidden;
-}
-
-* {
-  font-family: "Roboto", sans-serif;
 }
 
 .App {
