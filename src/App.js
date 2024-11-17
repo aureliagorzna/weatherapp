@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
+import axios from "axios";
 import SearchBar from "./components/searchBar/searchBar";
 import WeatherIcon from "./components/weatherIcon/weatherIcon";
+import Daytime from "./components/daytime/daytime";
+import WeatherTable from "./components/weatherTable/WeatherTable";
 import TemperatureChart from "./components/temperatureChart/temperatureChart";
 import {
   getCoordinatesByCityName,
@@ -8,9 +11,6 @@ import {
   convertToTimeFormat,
   mapWeatherCodeToCondition,
 } from "./utlis";
-import axios from "axios";
-import Daytime from "./components/daytime/daytime";
-import WeatherTable from "./components/weatherTable/WeatherTable";
 
 const DEFAULT_CITY = "Warsaw";
 const daysOfWeek = [

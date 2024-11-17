@@ -1,6 +1,6 @@
 import React from "react";
-import "./index.css";
 import WeatherIcon from "../weatherIcon/weatherIcon";
+import "./index.css";
 
 const WeatherTable = ({ weekData }) => {
   return (

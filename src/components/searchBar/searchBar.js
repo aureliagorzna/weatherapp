@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
-import "./index.css";
 import { FaSearch } from "react-icons/fa";
+import "./index.css";
 
 const SearchBar = ({ fetchData }) => {
   const inputRef = useRef(null);
